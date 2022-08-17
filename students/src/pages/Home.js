@@ -35,7 +35,7 @@ function Home() {
             <input
               type="text"
               className="form-control"
-              value={searchTerm}
+              //value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             ></input>
             <div className="input-group-append">
@@ -61,7 +61,6 @@ function Home() {
           </p>
         </div>
       </div>
-
       <StudentTable data={data} />
     </div>
   );
